@@ -22,13 +22,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto mr-auto pr-3">
             <li class="nav-item">
-              <a class="nav-link text-light underline R" href="test.html">Testing Page</a>
+              <a class="nav-link text-light n-item R" href="radar.html">Radar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light underline R" href="mountain.html">Page 2</a>
+              <a class="nav-link text-light n-item R" href="engine.html">Engine</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light underline R" href="field.html">Page 3</a>
+              <a class="nav-link text-light n-item R" href="jeep.html">Jeep</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light n-item R" href="bazooka.html">Bazooka</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light n-item R" href="v2.html">V2 Missile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light n-item R" href="atomic.html">Atomic Bombs</a>
             </li>
           </ul>
         </div>
@@ -37,53 +46,22 @@
 
   <!-- Body -->
     <main class="">
-      
       <div class="container">
         <div class="jumbotron my-5">
           <h1 class="display-4 mytext">World War II Technology</h1>
           <p class="lead mytext">This is a simple website, dedicated to calling attention to World War II war technology and providing information about those technologies.</p>
           <hr class="my-4 myline">
-          <p class="mytext">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <p class="lead mb-4">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </p>
+          <div></div>
         </div>
       </div>
       <div class="container-fluid">
-        <div class="row py-5 mb-5 my_olive">
-          <div class="col-4 p-0">
-            <img src="Images/radar-screen.webp" class="d-block w-100 s-img" alt="Radar">
-            <p class="s-text">Radar</p>
-          </div>
-          <div class="col-4 p-0">
-            <img src="Images/Whittle_jet.jpg" id="grayscale" class="d-block w-100 s-img" alt="Whittle's Jet Engine">
-            <p class="s-text">Jet Engine</p>
-          </div> 
-          <div class="col-4 p-0">
-            <img src="Images/pic-ww2-men-around-jeep.jpg" class="d-block w-100 s-img" alt="Jeep">
-            <p class="s-text">Jeep</p>
-          </div> 
-          <div class="col-4 p-0">
-            <img src="Images/bazooka prototype.jpg" class="d-block w-100 s-img" alt="Bazooka M1">
-            <p class="s-text">Bazooka</p>
-          </div> 
-          <div class="col-4 p-0">
-            <img src="Images/V2-rocket.webp" class="d-block w-100 s-img" alt="V2 Missile">
-            <p class="s-text">V2 Missile</p>
-          </div> 
-          <div class="col-4 p-0">
-            <img src="Images/fatman.webp" class="d-block w-100 s-img" alt="Fat Man Atomic Bomb">
-            <p class="s-text">Atomic Bomb</p>
-          </div>   
-        </div>
-        <div class="row py-5 my_olive">
-          <div class="col-12">
+        <div class="row my_olive">
+          <div class="col-6 offset-3 div2 text-center pt-5">
             <h2 class="mytext">Featured Technologies</h2>
           </div>
         </div>
-        <div class="row py-5 my_olive">
-          <div class="col-3"></div>
-          <div class="col-6 py-5 div2">
+        <div class="row my_olive">
+          <div class="col-8 offset-2 div2 pb-5">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -147,14 +125,54 @@
               </button>
             </div>
           </div>
-          <div class="col-12 div2">
-            <p>It uses utility classes for typography and spacing to space content out within the larger containerIt uses utility classes for typography and spacing to space content out within the larger container</p>
-            <p>It uses utility classes for typography and spacing to space content out within the larger containerIt uses utility classes for typography and spacing to space content out within the larger container</p>
-            <p>It uses utility classes for typography and spacing to space content out within the larger containerIt uses utility classes for typography and spacing to space content out within the larger container</p>
-            <p>It uses utility classes for typography and spacing to space content out within the larger containerIt uses utility classes for typography and spacing to space content out within the larger container</p>
-            <p>It uses utility classes for typography and spacing to space content out within the larger containerIt uses utility classes for typography and spacing to space content out within the larger container</p>
+        </div>
+        <div class="row mb-7 my_olive">
+          <div class="col-6 div2 mt-4 p-4">
+            <h2 class="mytext text-center">V2 Missile Launch Footage</h2>
+            <video width="100%" height="auto" controls>
+              <source src="videos/v2-launch.mp4" type=video/mp4>
+            </video>
+          </div>
+          <div class="col-6 div2 mt-4 p-4">
+            <h2 class="mytext text-center">V2 Missile Failure Footage</h2>
+            <video width="100%" height="auto" controls>
+              <source src="videos/v2-fail.mp4" type=video/mp4>
+            </video>
+          </div>
+          <div class="col-6 mb-7 div2 mytext">
+            <p>The Nazis created the V2 missile during World War II to counteract the air defense systems of the British. 
+              Since the V2 could fly much higher than any previous missiles, it was ideal for dropping bombs from above
+               the range of radar systems and maintain the element of surprise.</p>
+          </div>
+          <div class="col-6 mb-7 div2 mytext">
+            <p>However the V2 missile had several technical issues and failures during its development which prevented it 
+              from seeing much success in the war. Although it was a technological marvel, and its impact was limited in WW2
+            it paved the way for future rocket ship technology, as one V2 missile reached the edge of space.</p>
           </div>
         </div>
+        <div class="row py-5 my-5 my_olive">
+          <div class="col-4 p-0">
+            <img src="Images/radar-screen.webp" class="d-block w-100 s-img" alt="Radar">
+            
+          </div>
+          <div class="col-4 p-0">
+            <img src="Images/Whittle_jet.jpg" id="grayscale" class="d-block w-100 s-img" alt="Whittle's Jet Engine">
+          </div> 
+          <div class="col-4 p-0">
+            <img src="Images/pic-ww2-men-around-jeep.jpg" class="d-block w-100 s-img" alt="Jeep">
+          </div> 
+          <div class="col-4 p-0">
+            <img src="Images/bazooka prototype.jpg" class="d-block w-100 s-img" alt="Bazooka M1">
+          </div> 
+          <div class="col-4 p-0">
+            <img src="Images/V2-rocket.webp" class="d-block w-100 s-img" alt="V2 Missile">
+          </div> 
+          <div class="col-4 p-0">
+            <img src="Images/fatman.webp" class="d-block w-100 s-img" alt="Fat Man Atomic Bomb">
+          </div>   
+        </div>
+        
+        
       </div>
     </main>
     

@@ -1,10 +1,5 @@
 /*
-Color Palette
-Jet Black #333333
-Eminence #643173
-Ghost White #F2F4FF
-Royal Purple #7D5BA6
-Selective Yellow #FFBC0A
+
 */
 html {
   height: 100%;
@@ -15,6 +10,9 @@ html {
 }
 body {
   background-color: rgba(0, 0, 0, 0.6);
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .mytext {
@@ -32,34 +30,24 @@ body {
 .nobg {
   background-color: transparent;
 }
-/* IMAGE */
+.n-item{
+  transition: 0.6s;
+}
+.n-item:hover {
+  border-bottom-color: #F2F4FF;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  transition: 0.3s;
+}
+/* IMAGES */
 .c-img {
   filter: brightness(0.8);
   object-fit: cover;
   object-position: center;
-  height: 60vh;
+  height: 80vh;
   overflow: hidden;
 }
-.s-text {
-  color: #F2F4FF;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  visibility: hidden;
-  display: inline-block;
-  position: relative;
-  top: -50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
-
-}
-.s-img:hover + .s-text, .s-text:hover {
-  visibility: visible;
-  font-size: 2rem;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px #000000;
-}
 .s-img {
   height: 50vh;
   padding: 0;
@@ -68,17 +56,19 @@ body {
   object-position: center;
   overflow: hidden;
   transition: 0.5s;
-}
-.s-text:hover + .s-img, .s-img:hover {
   filter: brightness(0.8);
 }
+.s-img:hover {
+  filter: brightness(1);
+}
 #grayscale {
-  filter: grayscale(100%);
+  filter: grayscale(100%) brightness(0.8);
   transition: 0.5s;
 }
 #grayscale:hover {
-  filter: grayscale(100%) brightness(0.8);
+  filter: grayscale(100%) brightness(1);
 }
+
   /* Falling Star */
   /*
 .mybg {

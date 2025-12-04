@@ -10,33 +10,47 @@ html {
     height: 100%;
     width: 100%;
     
-  }
-  body {
-    background: linear-gradient(to bottom, #7f30c5, #100f0f);
-  }
-  .mybg {
-    background-size: cover;
-    background-position:50% 50%;
-    width:100%;
-    height:100%;
-    position:fixed;
-    top:0px;
-    left:0px;
-    z-index:-2;
-    background-repeat:repeat;
-  }
-  .mytext {
-    color: #F2F4FF;
-  }
-  .myline {
-    color: #F2F4FF;
-  }
-  .div2 {
-    background-color: #F2F4FF;
-    z-index: 1;
-  }
+}
+body {
+  background: black;
+  background-size: cover;
+}
+
+.mytext {
+  color: #F2F4FF;
+}
+.myline {
+  color: #F2F4FF;
+}
+.div2 {
+  z-index: 1;
+}
+.my_row {
+  background-color: darkolivegreen;
+}
+/* IMAGES */
+.c-img {
+  filter: brightness(0.8);
+
+  object-fit: cover;
+  object-position: center;
+  height: 60vh;
+  overflow: hidden;
+}
   
   /* Falling Star */
+  /*
+.mybg {
+  background-size: cover;
+  background-position:50% 50%;
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index:-2;
+  background-repeat:repeat;
+}
   .star {
     position: absolute;
     top: 0;
@@ -57,7 +71,7 @@ html {
   }
   
   /* Rising Thing */
-  
+  /*
   .rising {
     position: absolute;
     top: 0;
@@ -77,4 +91,5 @@ html {
     }
   }
   
-  
+  */
+

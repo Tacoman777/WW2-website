@@ -12,7 +12,6 @@ html {
     
 }
 body {
-  background: black;
   background-size: cover;
 }
 
@@ -29,12 +28,13 @@ body {
   background-color: darkolivegreen;
 }
 /* IMAGES */
-.c-img {
-  filter: brightness(0.8);
 
+.bg-img {
+  z-index: -1;
+  filter: brightness(0.8);
   object-fit: cover;
   object-position: center;
-  height: 60vh;
+  height: 100%;
   overflow: hidden;
 }
   

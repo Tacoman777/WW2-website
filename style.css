@@ -26,19 +26,19 @@ body::-webkit-scrollbar {
   background-size: cover;
 }
 .jeepbg {
-  background: url("") no-repeat center center fixed;
+  background: url("Images/Jeep Legacy.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .bazookabg {
-  background: url("") no-repeat center center fixed;
+  background: url("Images/bazooka prototype.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .v2bbg {
-  background: url("") no-repeat center center fixed;
+  background: url("Images/V2-on-wagon.webp") no-repeat center center fixed;
   background-size: cover;
 }
 .atombg {
-  background: url("") no-repeat center center fixed;
+  background: url("Images/a-The-Gadget.webp") no-repeat center center fixed;
   background-size: cover;
 }
 

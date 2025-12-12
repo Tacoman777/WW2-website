@@ -4,8 +4,6 @@
 html {
   height: 100%;
   width: 100%;
-  background: url("Images/WW2-bg1.webp") no-repeat center center fixed;
-  background-size: cover;
     
 }
 body {
@@ -14,9 +12,43 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+/* Backgrounds */
+.homebg {
+  background: url("Images/WW2-bg1.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+.radarbg {
+  background: url("Images/r-chain_home-ec.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+.enginebg {
+  background: url("Images/e-messerschmitt-me-262.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+.jeepbg {
+  background: url("") no-repeat center center fixed;
+  background-size: cover;
+}
+.bazookabg {
+  background: url("") no-repeat center center fixed;
+  background-size: cover;
+}
+.v2bbg {
+  background: url("") no-repeat center center fixed;
+  background-size: cover;
+}
+.atombg {
+  background: url("") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* TEXT & DIVS */
 
 .mytext {
   color: #F2F4FF;
+}
+.ptext {
+  text-align: justify;
 }
 .myline {
   color: #F2F4FF;
@@ -24,7 +56,7 @@ body::-webkit-scrollbar {
 .div2 {
   z-index: 1;
 }
-.my_olive {
+.my_div {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .nobg {
@@ -47,7 +79,14 @@ body::-webkit-scrollbar {
   height: 80vh;
   overflow: hidden;
 }
-
+.p-img {
+  height: 65vh;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
 .s-img {
   height: 50vh;
   padding: 0;
